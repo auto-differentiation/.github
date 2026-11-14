@@ -39,7 +39,7 @@ XAD is the fastest open-source C++ AD library on four quant-finance workloads, b
 
 ## Get Started
 
-[Documentation](https://auto-differentiation.github.io) 
+[Documentation](https://www.xcelerit.com/xad/docs/) 
 
 ---
 
