@@ -28,6 +28,12 @@ XAD is the fastest open-source C++ AD library on four quant-finance workloads, b
 
 <p align="center"><em>XAD v2.2.0, AMD EPYC (Zen 5), one core, GCC 15.2, run 10 November 2026. Full methodology and source: <a href="https://github.com/auto-differentiation/ad-benchmarks">ad-benchmarks</a>.</em></p>
 
+### GradBench
+
+With code generation, XAD is the fastest of the C and C++ AD tools on all 11 [GradBench](https://gradben.ch) problems, and on average 2.4x faster than the next-fastest tool.¹ On seven problems the generated code beats hand-written derivatives. Without code generation, open-source XAD is the fastest tape-based AD tool on 7 of the 11 and second on the other four. [Full results](https://www.xcelerit.com/xad/benchmarks/#bench-gradbench)
+
+<sub>¹ Geometric mean of the 11 ratios to the fastest other AD tool, open-source XAD excluded. Measured by Xcelerit with GradBench's harness and tool images, 16 November 2026; not GradBench's nightly results.</sub>
+
 ## Why XAD?
 
 - Fastest AAD library for C++ - [independently benchmarked](https://github.com/auto-differentiation/ad-benchmarks)
