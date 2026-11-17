@@ -9,7 +9,7 @@
 | [xad](https://github.com/auto-differentiation/xad) | Core AD library - forward & adjoint mode, JIT support, Eigen integration | C++ |
 | [xad-py](https://github.com/auto-differentiation/xad-py) | Python bindings for XAD | Python |
 | [QuantLibAAD](https://github.com/auto-differentiation/QuantLibAAD) | Full QuantLib integration - compute all Greeks at once, up to 3 orders of magnitude faster than bump-and-reval | C++ |
-| [QuantLib-Risks-Py](https://github.com/auto-differentiation/QuantLib-Risks-Py) | QuantLib risks from Python via XAD | Python |
+| [QuantLibAAD-Py](https://github.com/auto-differentiation/QuantLibAAD-Py) | QuantLib risks from Python via XAD | Python |
 | [xad-codegen](https://www.xcelerit.com/xad/#editions) | High-performance native code generation backend for XAD - record-once/replay-many at maximum throughput (commercial) | C++ |
 | [ad-benchmarks](https://github.com/auto-differentiation/ad-benchmarks) | AD benchmarks on quant-finance workloads (LMM, Heston, CVA, SABR): XAD against CppAD, Adept 2 and autodiff, every gradient checked | C++ |
 
