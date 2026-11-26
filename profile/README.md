@@ -6,7 +6,7 @@
 
 | Repository | Description | Language |
 |---|---|---|
-| [xad](https://github.com/auto-differentiation/xad) | Core AD library - forward & adjoint mode, JIT support, Eigen integration | C++ |
+| [xad](https://github.com/auto-differentiation/xad) | Core AD library - forward & adjoint mode, graph recording, Eigen integration | C++ |
 | [xad-py](https://github.com/auto-differentiation/xad-py) | Python bindings for XAD | Python |
 | [QuantLibAAD](https://github.com/auto-differentiation/QuantLibAAD) | Full QuantLib integration - compute all Greeks at once, up to 3 orders of magnitude faster than bump-and-reval | C++ |
 | [QuantLibAAD-Py](https://github.com/auto-differentiation/QuantLibAAD-Py) | QuantLib risks from Python via XAD | Python |
